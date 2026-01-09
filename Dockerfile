@@ -21,4 +21,5 @@ COPY . .
 EXPOSE 8501
 
 # ---------- Run Streamlit ----------
-CMD ["streamlit", "run", "app.py"]
+CMD ["streamlit", "run", "/trial/app.py"]
+
